@@ -48,3 +48,8 @@ load(
 )
 
 apple_support_dependencies()
+
+http_archive(
+    name = "xchammer",
+    urls = [ "https://github.com/pinterest/xchammer/releases/download/v3.4.1.0/xchammer.zip" ],
+)
